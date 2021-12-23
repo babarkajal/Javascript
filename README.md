@@ -27,3 +27,26 @@ scripts with an async attribute will execute as soon as the download is complete
 scripts with a defer attribute will load in the order they are in and will only execute once everything has finished loading.
 
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript/async-defer.jpg
+
+## Operators in Javascript
+
+Arithmetic Operators: + , - ,/ , \* , %
+Comparison: === , !==, < , >
+Here === and == are two different operators in javascript because === means strictly equal and it checks datatype to
+for example 12 == '12' --> true  
+12 === "12" --> false
+
+## Variable
+
+Variable is a container which store values.
+let a;
+when we print a it returns undefined means there is box a which contain nothing. when we address any undeclared variable like
+console.log(house); --> house doesn't exit it throws <b color="red">ReferenceError: house is not declared;</b>
+
+Note: Previous js version uses var. Difference between var and let is:
+
+1. Using var we can use variables ahead of its declaration. This is called 'hoisting' Ex.
+   log(fruits); //Prints Undefined
+   var fruits = "apple"; //Declaration and init
+   But Let doesn't allow this behavior.
+2. Var declared variable can be used anywhere in the programming regardless of the scope. Let declared variables are limited to block scope only
