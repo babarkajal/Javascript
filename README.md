@@ -2,7 +2,7 @@
 
 Javascript Learning
 
-### Day 1 22-12-2021
+### Introduction
 
 1. JavaScript is scripting programming language used to give interactivity to static webpages.<br/>
 2. HTML defines structure, CSS gives looks to that structure and javascript interactivity.
@@ -15,8 +15,8 @@ How webpage is get loaded inside browser?
 2. create it's DOM and store it in computer memory
 3. Parse CSS and apply to every node
 4. Display
-5. Load javascript
-   https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works/rendering.svg
+5. Load javascript<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works/rendering.svg">See How css rendered</a>
+   
 
 ##### Script loading strategies
 
@@ -25,8 +25,7 @@ For external scripts <b>defer</b> option is used with script tab which stops exe
 async and defer both instruct the browser to download the script(s) in a separate thread, while the rest of the page (the DOM, etc.) is downloading, so the page loading is not blocked during the fetch process.
 scripts with an async attribute will execute as soon as the download is complete. This blocks the page and does not guarantee any specific execution order.
 scripts with a defer attribute will load in the order they are in and will only execute once everything has finished loading.
-
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript/async-defer.jpg
+<a href ="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript/async-defer.jpg">Async and defer scripts</a>
 
 ## Variable
 
@@ -45,25 +44,23 @@ Note: Previous js version uses var. Difference between var and let is:
 
 <hr>
 
-## Operators in Javascript https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#operator_precedence
+## Operators in Javascript <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#operator_precedence">MDN Guide</a>
 
 1. Arithmetic Operators: + , - ,/ , \* , %, \*\*, ++, --, - , +
    Assignment operator is right associative.
    a = x =20;
    here 20 is assigned to x first and then to a.
-
 2. Comparison: ==, !=, === , !==, < , > , <= , =>
    Here === and == are two different operators in javascript because === means strictly equal and it checks datatype to
    for example 12 == '12' --> true  
    12 === "12" --> false
-
 3. Bitwise Operators: & , |, ^, ~ , << , >>,>>>
 4. Logical Operators: && , ||,!
 5. Conditional Operators: ? :
 6. Comma operator: ,
 7. Unary operator: <br/> - delete: to delete any object property<br/> - typeof: return type of object <br/> - void: The void operator specifies an expression to be evaluated without returning a value.
    void expression;
-8. Relational Operators: - in: returns true if the specified property is in the specified object <br/> - instanceOf:returns true if the specified object is of the specified object type.
+8. Relational Operators: <br/>- in: returns true if the specified property is in the specified object <br/> - instanceOf:returns true if the specified object is of the specified object type.
 <hr>
 
 ## Data types in javascript (Refer Datatypes.js script):
